@@ -10,6 +10,7 @@ from ftplib import FTP
 from StringIO import StringIO
 from _base import BaseExtractor
 
+
 ##Low level functions
 
 #Input: string, string, string; Output: ftpConn

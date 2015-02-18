@@ -93,20 +93,5 @@ class LocalExtractor(BaseExtractor):
         
         return "\n".join(output)
     
-#     #Input: string, string; Output: bool
-#     def write(self, file_name, contents):
-#         
-#         '''
-#         Exports into the data store
-#         Returns true is success
-#         '''
-#         
-#         with open(file_name, "w+b") as fileOut:
-#             
-#             fileOut.write(contents)
-#             
-#         return True
-    
-LocalExtractor("hkjh", "test.csv")
     
     

@@ -16,13 +16,6 @@ class BaseExtractor(object):
         Finds the data from the source and returns the content
         '''
         return
-    
-#     @abstractmethod
-#     def write(self):
-#         '''
-#         Store the content of the data into the appropriate place
-#         '''
-#         return
         
         
 if __name__ == "__main__":
