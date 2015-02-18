@@ -8,8 +8,11 @@ way to access it.  The easier the process of getting data can be the more people
 As such the module makes a number of design decisions focussed on easy of use over efficiency or pure design beauty:
 
   1) Using Python over a type safe language
+  
   2) Limiting the externally facing API to just a single module
+  
   3) Encapsulating the class structure away from the end user
+  
   4) Having a functional layer of pre-defined functions to be customised for the situation
   
 However, I have also tried to make the back end well designed, robust and extensionable.
