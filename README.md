@@ -20,6 +20,7 @@ However, I have also tried to make the back end well designed, robust and extens
 There are two main types of classes:
 
   1) DataState - represents either abstract or concrete data values
+  
   2) Extractors - represent a place in memory (either hypothetical or real)
   
 The relationship between them can be roughly viewed as container (Extractor) and content.  Data sits in the place in memory and can be extracted out.
